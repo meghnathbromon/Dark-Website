@@ -1,10 +1,19 @@
 import './App.css'
+import Home from './pages/Home/Home'
+import Service from './pages/Service/Service';
+import Bookmarks from './pages/Bookmarks/Bookmarks'
+import About from './pages/About/About';
+
+
 
 function App() {
 
   return (
     <>
-      <h1 className='text-3xl font-bold underline'>Start Our Projects Work</h1>
+      <Home></Home>
+      <Service></Service>
+      <Bookmarks></Bookmarks>
+      <About></About>
     </>
   )
 }
