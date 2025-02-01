@@ -1,25 +1,31 @@
 import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <div className="navbar bg-base-100 shadow-lg px-4 fixed z-10">
             <div className="flex-1">
-                <a className="btn btn-ghost gap-0 text-secondary text-2xl">Dark <span className='text-warning'>Website</span></a>
+                <Link to='/' className="btn btn-ghost gap-0 text-secondary text-2xl">Dark <span className='text-warning'>Website</span>
+                </Link>
             </div>
-            <div className="flex">
-                <ul className="menu menu-horizontal px-1">
-                    <li className='font-bold text-primary'>
-                        <a>Home</a>
-                    </li>
-                    <li className='font-bold'>
-                        <a>Service</a>
-                    </li>
-                    <li className='font-bold'>
-                        <a>BookMarks</a>
-                    </li>
-                    <li className='font-bold'>
-                        <a>About</a>
-                    </li>
+            <div className="flex gap-2">
+                <ul className="menu menu-horizontal px-1 gap-5">
+                    <NavLink to='/' className={({ isActive }) => isActive ? 'text-primary font-bold' : 'font-bold'
+                    }>
+                        Home
+                    </NavLink>
+                    <NavLink to='/service' className={({ isActive }) => isActive ? 'text-primary font-bold' : 'font-bold'
+                    }>
+                        Service
+                    </NavLink>
+                    <NavLink to='/bookmarks' className={({ isActive }) => isActive ? 'text-primary font-bold' : 'font-bold'
+                    }>
+                        BookMarks
+                    </NavLink>
+                    <NavLink to='/about' className={({ isActive }) => isActive ? 'text-primary font-bold' : 'font-bold'
+                    }>
+                        About
+                    </NavLink>
                 </ul>
                 <label className="grid cursor-pointer place-items-center">
                     <input
