@@ -20,7 +20,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/service',
-        element: <Service></Service>
+        element: <Service></Service>,
+        loader: () => fetch('darkweb.json'),
       },
       {
         path: '/bookmarks',

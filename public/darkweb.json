@@ -1,0 +1,165 @@
+{
+    "weapons": [
+      {
+        "id": 1,
+        "name": "Glock 19",
+        "price": "$500 - $700",
+        "quality": "Compact, Reliable",
+        "image": "/src/assets/image/glock19.jpg",
+        "imported_from": "Austria"
+      },
+      {
+        "id": 2,
+        "name": "AK-47",
+        "price": "$900 - $1,200",
+        "quality": "Durable, Powerful",
+        "image": "/src/assets/image/ak47.jpg",
+        "imported_from": "Russia"
+      },
+      {
+        "id": 3,
+        "name": "M4A1 Carbine",
+        "price": "$1,000 - $1,500",
+        "quality": "Lightweight, Accurate",
+        "image": "/src/assets/image/m4a1.jpg",
+        "imported_from": "USA"
+      },
+      {
+        "id": 4,
+        "name": "Desert Eagle .50 AE",
+        "price": "$1,200 - $1,500",
+        "quality": "High Damage, Premium",
+        "image": "/src/assets/image/desert_eagle.jpg",
+        "imported_from": "Israel"
+      },
+      {
+        "id": 5,
+        "name": "Remington 870",
+        "price": "$400 - $600",
+        "quality": "Tactical, Strong Impact",
+        "image": "/src/assets/image/remington870.jpg",
+        "imported_from": "USA"
+      },
+      {
+        "id": 6,
+        "name": "Barrett M82",
+        "price": "$8,000 - $10,000",
+        "quality": "Long-Range, Heavy Duty",
+        "image": "/src/assets/image/barrett_m82.jpg",
+        "imported_from": "USA"
+      },
+      {
+        "id": 7,
+        "name": "FN SCAR-H",
+        "price": "$3,000 - $3,500",
+        "quality": "Versatile, Precise",
+        "image": "/src/assets/image/fn_scar.jpg",
+        "imported_from": "Belgium"
+      },
+      {
+        "id": 8,
+        "name": "SIG Sauer P320",
+        "price": "$500 - $700",
+        "quality": "Modular, Reliable",
+        "image": "/src/assets/image/sig_p320.jpg",
+        "imported_from": "Germany"
+      },
+      {
+        "id": 9,
+        "name": "Colt Python .357",
+        "price": "$1,500 - $2,000",
+        "quality": "Classic, Powerful",
+        "image": "/src/assets/image/colt_python.jpg",
+        "imported_from": "USA"
+      },
+      {
+        "id": 10,
+        "name": "Heckler & Koch MP5",
+        "price": "$2,500 - $3,000",
+        "quality": "Compact, Tactical",
+        "image": "/src/assets/image/hk_mp5.jpg",
+        "imported_from": "Germany"
+      },
+      {
+        "id": 11,
+        "name": "Beretta M9",
+        "price": "$600 - $800",
+        "quality": "Military-Grade, Reliable",
+        "image": "/src/assets/image/berretta_m9.jpg",
+        "imported_from": "Italy"
+      },
+      {
+        "id": 12,
+        "name": "CZ 75",
+        "price": "$600 - $900",
+        "quality": "Smooth Handling, Accurate",
+        "image": "/src/assets/image/cz75.jpg",
+        "imported_from": "Czech Republic"
+      },
+      {
+        "id": 13,
+        "name": "Mossberg 500",
+        "price": "$350 - $600",
+        "quality": "Tactical, Versatile",
+        "image": "/src/assets/image/mossberg500.jpg",
+        "imported_from": "USA"
+      },
+      {
+        "id": 14,
+        "name": "FN Five-SeveN",
+        "price": "$1,000 - $1,300",
+        "quality": "High Capacity, Lightweight",
+        "image": "/src/assets/image/fn57.jpg",
+        "imported_from": "Belgium"
+      },
+      {
+        "id": 15,
+        "name": "Steyr AUG",
+        "price": "$2,000 - $2,500",
+        "quality": "Bullpup Design, Advanced",
+        "image": "/src/assets/image/steyr_aug.jpg",
+        "imported_from": "Austria"
+      },
+      {
+        "id": 16,
+        "name": "Uzi Pro",
+        "price": "$1,500 - $2,000",
+        "quality": "Compact, Fast Firing",
+        "image": "/src/assets/image/uzi_pro.jpg",
+        "imported_from": "Israel"
+      },
+      {
+        "id": 17,
+        "name": "Smith & Wesson M&P Shield",
+        "price": "$400 - $600",
+        "quality": "Concealed Carry, Reliable",
+        "image": "/src/assets/image/sw_mp_shield.jpg",
+        "imported_from": "USA"
+      },
+      {
+        "id": 18,
+        "name": "Browning Hi-Power",
+        "price": "$900 - $1,200",
+        "quality": "Legendary, Accurate",
+        "image": "/src/assets/image/browning_hp.jpg",
+        "imported_from": "Belgium"
+      },
+      {
+        "id": 19,
+        "name": "Walther P99",
+        "price": "$700 - $900",
+        "quality": "Ergonomic, Reliable",
+        "image": "/src/assets/image/walther_p99.jpg",
+        "imported_from": "Germany"
+      },
+      {
+        "id": 20,
+        "name": "Ruger 10/22",
+        "price": "$250 - $500",
+        "quality": "Affordable, Easy to Use",
+        "image": "/src/assets/image/ruger_1022.jpg",
+        "imported_from": "USA"
+      }
+    ]
+  }
+  
