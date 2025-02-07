@@ -34,7 +34,7 @@ const Details = () => {
 
             </div>
 
-            <input type="text" name="" placeholder='Give a comment' id="" />
+            {/* <input type="text" name="" placeholder='Give a comment' id="" /> */}
 
 
         </div>

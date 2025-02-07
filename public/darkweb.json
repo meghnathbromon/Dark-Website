@@ -4,7 +4,7 @@
     "name": "Glock 19",
     "title": "Compact 9mm Handgun",
     "description": "A lightweight and reliable handgun, ideal for personal defense and law enforcement.",
-    "price": "$500 - $700",
+    "price": "$600",
     "quality": "Compact, Reliable",
     "image": "/src/assets/image/glock19.jpg",
     "imported_from": "Austria"
@@ -14,7 +14,7 @@
     "name": "AK-47",
     "title": "Durable Assault Rifle",
     "description": "A powerful and highly durable rifle, widely used in military operations worldwide.",
-    "price": "$900 - $1,200",
+    "price": "$1,000",
     "quality": "Durable, Powerful",
     "image": "/src/assets/image/ak47.jpg",
     "imported_from": "Russia"
@@ -24,7 +24,7 @@
     "name": "M4A1 Carbine",
     "title": "Lightweight Military Rifle",
     "description": "A highly accurate and lightweight rifle, used by military forces for rapid response.",
-    "price": "$1,000 - $1,500",
+    "price": "$1,300",
     "quality": "Lightweight, Accurate",
     "image": "/src/assets/image/m4a1.jpg",
     "imported_from": "USA"
@@ -34,7 +34,7 @@
     "name": "Desert Eagle .50 AE",
     "title": "Powerful Semi-Automatic Pistol",
     "description": "A high-damage premium pistol known for its heavy recoil and unique design.",
-    "price": "$1,200 - $1,500",
+    "price": "$1,500",
     "quality": "High Damage, Premium",
     "image": "/src/assets/image/desert_eagle.jpg",
     "imported_from": "Israel"
@@ -44,7 +44,7 @@
     "name": "Remington 870",
     "title": "Versatile Pump-Action Shotgun",
     "description": "A tactical shotgun with strong impact, widely used for hunting and law enforcement.",
-    "price": "$400 - $600",
+    "price": "$700",
     "quality": "Tactical, Strong Impact",
     "image": "/src/assets/image/remington870.jpg",
     "imported_from": "USA"
@@ -54,7 +54,7 @@
     "name": "Barrett M82",
     "title": "Long-Range Sniper Rifle",
     "description": "A heavy-duty sniper rifle with extreme long-range accuracy, used by military snipers.",
-    "price": "$8,000 - $10,000",
+    "price": "$10,000",
     "quality": "Long-Range, Heavy Duty",
     "image": "/src/assets/image/barrett_m82.jpg",
     "imported_from": "USA"
@@ -64,7 +64,7 @@
     "name": "FN SCAR-H",
     "title": "Versatile Battle Rifle",
     "description": "A modern, precise, and adaptable battle rifle, designed for various combat scenarios.",
-    "price": "$3,000 - $3,500",
+    "price": "$3,500",
     "quality": "Versatile, Precise",
     "image": "/src/assets/image/fn_scar.jpg",
     "imported_from": "Belgium"
@@ -74,7 +74,7 @@
     "name": "SIG Sauer P320",
     "title": "Modular Semi-Automatic Pistol",
     "description": "A widely used handgun known for its modular design and reliability.",
-    "price": "$500 - $700",
+    "price": "$700",
     "quality": "Modular, Reliable",
     "image": "/src/assets/image/sig_p320.jpg",
     "imported_from": "Germany"
@@ -84,7 +84,7 @@
     "name": "Colt Python .357",
     "title": "Classic Revolver",
     "description": "A legendary revolver with exceptional craftsmanship and powerful .357 Magnum rounds.",
-    "price": "$1,500 - $2,000",
+    "price": "$2,000",
     "quality": "Classic, Powerful",
     "image": "/src/assets/image/colt_python.jpg",
     "imported_from": "USA"
@@ -94,7 +94,7 @@
     "name": "Heckler & Koch MP5",
     "title": "Compact Submachine Gun",
     "description": "A high-performance submachine gun, widely used in tactical operations.",
-    "price": "$2,500 - $3,000",
+    "price": "$3,000",
     "quality": "Compact, Tactical",
     "image": "/src/assets/image/hk_mp5.jpg",
     "imported_from": "Germany"
@@ -104,7 +104,7 @@
     "name": "Beretta M9",
     "title": "Military-Grade Semi-Automatic Pistol",
     "description": "A military-grade semi-automatic pistol, known for its durability and accuracy.",
-    "price": "$600 - $800",
+    "price": "$800",
     "quality": "Military-Grade, Reliable",
     "image": "/src/assets/image/berretta_m9.jpg",
     "imported_from": "Italy"
@@ -114,7 +114,7 @@
     "name": "CZ 75",
     "title": "Smooth Handling Pistol",
     "description": "A renowned pistol offering smooth handling and accuracy, ideal for sport shooting.",
-    "price": "$600 - $900",
+    "price": "$900",
     "quality": "Smooth Handling, Accurate",
     "image": "/src/assets/image/cz75.jpg",
     "imported_from": "Czech Republic"
@@ -124,7 +124,7 @@
     "name": "Mossberg 500",
     "title": "Tactical Pump-Action Shotgun",
     "description": "A tactical shotgun with versatility, suitable for both hunting and law enforcement.",
-    "price": "$350 - $600",
+    "price": "$600",
     "quality": "Tactical, Versatile",
     "image": "/src/assets/image/mossberg500.jpg",
     "imported_from": "USA"
@@ -134,7 +134,7 @@
     "name": "FN Five-SeveN",
     "title": "High-Capacity Handgun",
     "description": "A high-capacity, lightweight handgun ideal for both tactical and personal use.",
-    "price": "$1,000 - $1,300",
+    "price": "$1,300",
     "quality": "High Capacity, Lightweight",
     "image": "/src/assets/image/fn57.jpg",
     "imported_from": "Belgium"
@@ -144,7 +144,7 @@
     "name": "Steyr AUG",
     "title": "Bullpup Assault Rifle",
     "description": "A bullpup design rifle, known for its compact size and advanced technology.",
-    "price": "$2,000 - $2,500",
+    "price": "$2,500",
     "quality": "Bullpup Design, Advanced",
     "image": "/src/assets/image/steyr_aug.jpg",
     "imported_from": "Austria"
@@ -154,7 +154,7 @@
     "name": "Uzi Pro",
     "title": "Compact Submachine Gun",
     "description": "A fast-firing, compact submachine gun, famous for its versatility and compact size.",
-    "price": "$1,500 - $2,000",
+    "price": "$2,000",
     "quality": "Compact, Fast Firing",
     "image": "/src/assets/image/uzi_pro.jpg",
     "imported_from": "Israel"
@@ -164,7 +164,7 @@
     "name": "Smith & Wesson M&P Shield",
     "title": "Concealed Carry Pistol",
     "description": "A reliable, lightweight pistol, designed for concealed carry with superior performance.",
-    "price": "$400 - $600",
+    "price": "$600",
     "quality": "Concealed Carry, Reliable",
     "image": "/src/assets/image/sw_mp_shield.jpg",
     "imported_from": "USA"
@@ -174,7 +174,7 @@
     "name": "Browning Hi-Power",
     "title": "Legendary Semi-Automatic Pistol",
     "description": "A classic, reliable semi-automatic pistol with a reputation for accuracy and power.",
-    "price": "$900 - $1,200",
+    "price": "$1,200",
     "quality": "Legendary, Accurate",
     "image": "/src/assets/image/browning_hp.jpg",
     "imported_from": "Belgium"
@@ -184,7 +184,7 @@
     "name": "Walther P99",
     "title": "Ergonomic Semi-Automatic Pistol",
     "description": "An ergonomic and reliable pistol, offering excellent handling and accuracy.",
-    "price": "$700 - $900",
+    "price": "$900",
     "quality": "Ergonomic, Reliable",
     "image": "/src/assets/image/walther_p99.jpg",
     "imported_from": "Germany"
@@ -194,7 +194,7 @@
     "name": "Ruger 10/22",
     "title": "Affordable Semi-Automatic Rifle",
     "description": "A budget-friendly, easy-to-use rifle, perfect for beginners and recreational shooters.",
-    "price": "$250 - $500",
+    "price": "$500",
     "quality": "Affordable, Easy to Use",
     "image": "/src/assets/image/ruger_1022.jpg",
     "imported_from": "USA"

@@ -10,6 +10,7 @@ import About from './pages/About/About.jsx'
 import MainLayouts from './Components/Layouts/MainLayouts.jsx'
 import Details from './pages/Details/Details.jsx'
 import { Toaster } from 'react-hot-toast';
+import Checkout from './Components/Checkout/Checkout.jsx'
 
 
 const router = createBrowserRouter([
@@ -43,6 +44,11 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About></About>
+      },
+      {
+        path: "/checkout",
+        element: <Checkout/>
+
       },
     ]
   },

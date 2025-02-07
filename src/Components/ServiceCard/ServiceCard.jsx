@@ -1,10 +1,21 @@
 import React from 'react';
 import { MdDeleteForever } from 'react-icons/md';
-import { Link } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { getDetails } from '../../utils';
 
 
 const ServiceCard = ({ data, deletable, handleDelete }) => {
     const { id, name, image, imported_from, price, quality } = data;
+
+    const navigate = useNavigate();
+
+
+    const handleButton = () =>{
+        localStorage.setItem("cart", JSON.stringify([data]));
+        // getDetails(data);
+        navigate("/checkout");
+        console.log(navigate);
+    }
     
    
     return (
@@ -26,7 +37,7 @@ const ServiceCard = ({ data, deletable, handleDelete }) => {
                         <Link to={`/data/${id}`}>
                             <button className='btn btn-primary'>More details</button>
                         </Link>
-                        <button className="btn btn-primary">Buy Now</button>
+                        <button onClick={handleButton} className="btn btn-primary">Buy Now</button>
                     </div>
                 </div>
 
