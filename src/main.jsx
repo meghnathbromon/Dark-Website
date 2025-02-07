@@ -8,6 +8,9 @@ import Service from './pages/Service/Service.jsx'
 import Bookmarks from './pages/Bookmarks/Bookmarks.jsx'
 import About from './pages/About/About.jsx'
 import MainLayouts from './Components/Layouts/MainLayouts.jsx'
+import Details from './pages/Details/Details.jsx'
+import { Toaster } from 'react-hot-toast';
+
 
 const router = createBrowserRouter([
   {
@@ -24,6 +27,16 @@ const router = createBrowserRouter([
         loader: () => fetch('darkweb.json'),
       },
       {
+        path: '/data/:id',
+        element: <Details></Details>,
+        // loader: ( { params })=> fetch(`/public/darkweb.json/${params.id}`),
+        loader: async ({ params }) => {
+          const response = await fetch('/public/darkweb.json');
+          const data = await response.json();
+          return data.find(item => item.id == params.id)
+        },
+      },
+      {
         path: '/bookmarks',
         element: <Bookmarks></Bookmarks>
       },
@@ -33,12 +46,13 @@ const router = createBrowserRouter([
       },
     ]
   },
- 
+
 ])
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router = {router} />
+    <RouterProvider router={router} />
+    <Toaster />
   </StrictMode>,
 )
